@@ -51,7 +51,7 @@ const fetchData =useCallback(
                 </div>
                 <div className='m-4'>
                     <button 
-                    className=' w-32 h-10  bg-sky-500'
+                    className=' w-32 h-10  bg-sky-500 rounded-xl'
                      type='submit'
                       disabled={loading}
                       onClick={(e)=>fetchData(e)} >Submit Prompt</button>
